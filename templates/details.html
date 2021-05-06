@@ -1,0 +1,66 @@
+<!doctype html>
+<!--
+	Johnny Huynh
+	CST205
+	Info HTML: This is the html format page for the details of each image
+	4/16/21
+  -->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+		<!-- Load Bootstrap -->
+        {{ bootstrap.load_css() }} 
+        {{ bootstrap.load_js() }}
+
+		<!-- in templates/template.html --> 
+		<h1>Info Page</h1>
+		<p>More Details</p>
+
+		<div>
+		<!-- Title -->
+		<h1>
+		Week {{wk}} - {{sub}}
+		</h1>
+		</div>
+
+		<div>
+			{{desc}}
+			{{dets}}
+		</div>
+
+		<div>
+		<!-- Image -->
+		<img
+		src="/static/images/{{pid}}.jpg" class="rounded img_fluid" 
+		alt="{{ home }}"
+		>
+		</div>
+
+		<!-- Details -->
+		<div class="card-body">
+			<h5 class="card-title"></h5> 
+				<p class="card-text">
+					{{im.mode}} is at {{im.format}} with {{im.width}} width and {{im.height}} height 
+				</p> 
+		</div>
+
+		<!-- Back Button -->
+		<a href="{{ url_for('home') }}">
+			Return to list of subjects
+		</a>
+
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
