@@ -30,26 +30,28 @@
 
         <!-- Looping Images List -->
         {% for i in imgList %}
-        <div class="card">
-        <div>
-          <!-- Link -->
-          <a href="{{ url_for('info', pid=i['id']) }}">
-          {{i.sub}}
-          </a>
-        </div>
-        <div>
-              <img
-          src="/static/images/{{ i.id }}.jpg" width="250" height="250"
-          class="img-fluid rounded"
-          alt="{{ home }}"
-          >
-        </div>
+          <div class="card">
+          <div>
+            <!-- Link -->
+            <a href="{{ url_for('details', pid=i['id']) }}">
+            {{i.subject}}
+            </a>
+            {{i.week}}
+          </div>
 
-      </div>
-      <br>
-      <br>
+          <div>
+            <img
+            src="/static/images/{{ i.id }}.jpg" width="250" height="250"
+            class="img-fluid rounded"
+            alt="{{ home }}"
+            >
+          </div>
+
+          </div>
+        <br>
+        <br>
         {% endfor %}
-      </div>
+        </div>
 
     </div>
   {% endblock %}

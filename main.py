@@ -6,9 +6,10 @@ Final Project: Blog/Learning App
 '''
 
 #Imports
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, redirect, url_for
 from flask_bootstrap import Bootstrap
 from posts_info import posts_info
+from PIL import Image
 
 #Creating flask instance
 app = Flask(__name__)
@@ -20,27 +21,27 @@ boostrap = Bootstrap(app)
 @app.route('/', methods=['GET','POST'])
 def home():
     #Return
-    return render_template("template.html", imgList=updateList)
+    return render_template("template.html", imgList=posts_info)
 
 #Details Route
 @app.route('/details/<pid>')
 def details(pid):
     #Open Image
-    image = Image.open(f"static/images/{pid}.jpg")
+    im = Image.open(f"static/images/{pid}.jpg")
     #All variables that will be sent
-   	week=""
-    subject=""
-    description=""
-    details=""
+    wk=""
+    sub=""
+    desc=""
+    dets=""
     #Loop and find matching
     for x in posts_info:
         if (x['id'] == pid):
-            week = x['week']
-            subject = x['subject']
-            description = x['description']
-            details = x['details']
+            wk = x['week']
+            sub = x['subject']
+            desc = x['description']
+            dets = x['details']
     #Return
-    return render_template("details.html", imgList=posts_info, pid=pid, im=image, wk=week, sub=subject, desc=description, dets=details)
+    return render_template("details.html", imgList=posts_info, pid=pid, im=im, wk=wk, sub=sub, desc=desc, dets=dets)
 
 
 #Run App
