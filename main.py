@@ -2,7 +2,12 @@
 Johnny Huynh
 Dylan Ignacio
 CST205 
-Final Project: Blog/Learning App
+Final Project: CST FINAL BLOG
+Abstract: Sets routes and passes data as needed
+5/16/21
+Cited Help (mostly in "posts_info.py")
+Divided Work:
+Dylan and Johnny Both worked on the main.py folder routing
 '''
 
 #Imports

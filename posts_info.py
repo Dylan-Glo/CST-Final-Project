@@ -1,11 +1,47 @@
 '''
 Johnny Huynh, Dylan Ignacio
 CST205
-posts_info: has all the data for the images
+Abstract: posts_info-has all the data for the images
 4/16/21
+
+Divided Work:
+Dylan did weeks 1-7
+Johnny did weeks 8-15
+
 CITED: 
+Dylans Sources -- 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogit.create.pt%2Ffabiocarvalho%2F2017%2F03%2F25%2Fsharepoint-get-all-alerts-from-a-specific-sp-listlibrary-using-powershell%2F&psig=AOvVaw2cUJamDCBR6WIIfntzfKej&ust=1621290649991000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDOrsSgz_ACFQAAAAAdAAAAABAZ
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.edureka.co%2Fblog%2Fpython-features%2F&psig=AOvVaw0u4MMGi0-4oBn06QIGzTcZ&ust=1621290946773000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiV2c2hz_ACFQAAAAAdAAAAABAb
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pyimagesearch.com%2F2014%2F06%2F30%2Fsuper-fast-color-transfer-images%2F&psig=AOvVaw0kxb26l6wCrLVNugj2YYFG&ust=1621291332110000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiplq6jz_ACFQAAAAAdAAAAABAZ
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.breathingcolor.com%2Fart-of-cropping%2F&psig=AOvVaw1bxcqnmGnsxp0wfm3hi6F3&ust=1621291807827000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCy1Oakz_ACFQAAAAAdAAAAABAD
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.roberthalf.com%2Fblog%2Fsalaries-and-skills%2F4-advantages-of-object-oriented-programming&psig=AOvVaw1DvA6nC_KPr2a9y7hAhMHx&ust=1621291846779000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPip2fukz_ACFQAAAAAdAAAAABAD
+
+https://ilearn.csumb.edu/pluginfile.php/1757790/mod_resource/content/0/CST_205_Digital_Image_Filtering.pdf
+
+https://youtu.be/yz7nYlnXLfE
+
+https://youtu.be/Y8Tko2YC5hA
+
+https://youtu.be/QMLbTEQJCaI
+
+https://youtu.be/15aqFQQVBWU
+
+https://youtu.be/dkp4wUhCwR4
+
+Johnnys Sources --
+https://youtu.be/pTB0EiLXUC8
 https://www.parsehub.com/blog/what-is-web-scraping/
 https://venngage.com/blog/data-visualization-infographic/
+https://www.youtube.com/watch?v=s7wmiS2mSXY
+https://www.youtube.com/watch?v=Ct8Gxo8StBU&t=22s
+https://www.youtube.com/watch?v=F7AK-WzpYdY&feature=emb_title
+https://www.youtube.com/watch?v=OcycT1Jwsns&feature=emb_title
+https://www.youtube.com/watch?v=VyhLRJVoIrI
+https://www.youtube.com/watch?v=VkXOzX73wJs&feature=emb_title
 '''
 posts_info = [
 	{
@@ -117,7 +153,7 @@ posts_info = [
 	},
 	{
 		"id" : "week8ws",
-		"vid" : "Sjg4nI4svyk",
+		"vid" : "Ct8Gxo8StBU",
 		"week" : "8",
 		"subject" : "Web Scraping",
 		"description" : "Web scraping is data extraction from websites",

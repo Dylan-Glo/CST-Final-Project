@@ -1,10 +1,19 @@
 <!doctype html>
+<!--
+  Johnny Huynh, Dylan I
+  CST205
+  Abstract: Template HTML-This is the html home blog page
+  4/16/21
+  Divided Work:
+  Dylan helped create the home template
+  -->
 <html lang="en">
   <head>
     {% block head %}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+      <!-- Load Bootstrap -->
       {% block styles %}
         {{ bootstrap.load_css() }}
       {% endblock %}
@@ -14,6 +23,7 @@
   </head>
 <body>
   {% block content %}
+  <!-- Big Jumbotron -->
   <div class="jumbotron vertical-center">
     <div class="container">
       <br>
@@ -40,6 +50,7 @@
             </a>
           </div>
 
+          <!-- Image -->
           <div>
             <img
             src="/static/images/{{ i.id }}.jpg" width="250" height="250"
@@ -48,6 +59,7 @@
             >
           </div>
           <div>
+            <!-- Description of class -->
             {{i.description}}
           </div>
 
