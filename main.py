@@ -1,6 +1,6 @@
 '''
 Johnny Huynh
-Dylan P
+Dylan Ignacio
 CST205 
 Final Project: Blog/Learning App
 '''
