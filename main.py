@@ -30,6 +30,7 @@ def details(pid):
     im = Image.open(f"static/images/{pid}.jpg")
     #All variables that will be sent
     wk=""
+    vid=""
     sub=""
     desc=""
     dets=""
@@ -37,11 +38,12 @@ def details(pid):
     for x in posts_info:
         if (x['id'] == pid):
             wk = x['week']
+            vid = x['vid']
             sub = x['subject']
             desc = x['description']
             dets = x['details']
     #Return
-    return render_template("details.html", imgList=posts_info, pid=pid, im=im, wk=wk, sub=sub, desc=desc, dets=dets)
+    return render_template("details.html", imgList=posts_info, pid=pid, im=im, wk=wk, vid=vid, sub=sub, desc=desc, dets=dets)
 
 
 #Run App
