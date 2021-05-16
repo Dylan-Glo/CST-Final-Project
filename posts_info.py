@@ -19,4 +19,46 @@ posts_info = [
 		"description" : "Popular programming language, easy to learn and read",
 		"details" : "Python Details PLACEHOLDER"
 	}
+	{
+		"id" :,
+		"week" : "8", 
+		"subject" : "API",
+		"description" : "Application Programming Interface that defines interactions between software applications.",
+		"details" : "A defined set of instructions you can send to a web service.  APIs allows developers to write programs to work with 3rd party programs.  Every API is different and has its own documentation.  JSON data typically has the data organized by its attributes and values, sepearted by colons.  Python supports JSON."
+	}
+	{
+		"id" :,
+		"week" : "8",
+		"subject" : "Web Scraping",
+		"description" : "Web scraping is data extraction from websites",
+		"details" : ""
+	}
+	{
+		"id" :,
+		"week" :,
+		"subject" :,
+		"description" : ,
+		"details" : 
+	}
+	{
+		"id" :,
+		"week" :,
+		"subject" :,
+		"description" : ,
+		"details" : 
+	}
+	{
+		"id" :,
+		"week" :,
+		"subject" :,
+		"description" : ,
+		"details" : 
+	}
+	{
+		"id" :,
+		"week" :,
+		"subject" :,
+		"description" : ,
+		"details" : 
+	}
 ]
