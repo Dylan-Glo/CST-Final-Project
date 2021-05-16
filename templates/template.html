@@ -14,6 +14,7 @@
   </head>
 <body>
   {% block content %}
+  <div class="jumbotron vertical-center">
     <div class="container">
       <br>
       
@@ -33,10 +34,10 @@
           <div class="card">
           <div>
             <!-- Link -->
+            Week {{i.week}} :
             <a href="{{ url_for('details', pid=i['id']) }}">
             {{i.subject}}
             </a>
-            {{i.week}}
           </div>
 
           <div>
@@ -45,6 +46,9 @@
             class="img-fluid rounded"
             alt="{{ home }}"
             >
+          </div>
+          <div>
+            {{i.description}}
           </div>
 
           </div>
@@ -55,6 +59,7 @@
 
     </div>
   {% endblock %}
+</div>
 </body>
 
 </html>
