@@ -2,7 +2,7 @@
 
 ## Team Members
 * Dylan Ignacio
-* Johnny Hyunh
+* Johnny Huynh
 
 ## Overview
 Class: CST205-01_SP21:Multimedia Design & Programming
